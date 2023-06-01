@@ -1,0 +1,258 @@
+/* header and nav styles */
+*{
+    margin:0;
+}
+header{
+    background-color:  #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+    
+}
+header nav{
+    display:flex;
+    justify-content:space-between;
+    margin:0px 200px;
+    padding-top: 50px;
+    
+}
+nav h3 span{
+    color:#FD6E0A;
+}
+nav h3{
+    font-size: 45px;
+    font-weight: bold;
+}
+nav ul{
+    display:flex;
+    align-items:center;
+}
+nav ul li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.btn-primary{
+    height:64px;
+    width:150px;
+    background-color: #FD6E0A;
+    color:aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+}
+nav ul li:hover{
+    color:#FD6E0A;
+}
+.btn-primary:hover{
+    background-color: #ed863d;
+    color:rgb(220, 236, 251);
+}
+/* styles of header banner */
+.header-banner{
+    display:flex;
+    align-items:center;
+    margin:120px 100px 150px 150px;
+}
+.header-banner img{
+    height: 564px;
+    width: 480px;
+}
+.banner-sub-title{
+    font-size:45px;
+    margin-bottom: 20px;
+}
+.banner-title{
+    font-size:85px;
+    font-weight:bold;
+    margin-bottom: 15px;
+}
+.banner-description{
+    font-size:20px;
+    margin-bottom: 20px;
+}
+.btn-contact{
+    height:64px;
+    width:150px;
+    background-color:aliceblue;
+    color: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.btn-contact:hover{
+    height:64px;
+    width:150px;
+    background-color:#FD6E0A;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+/* main section */
+.main_section{
+    max-width:1140px;
+    margin:0 auto;
+}
+.about_me{
+    margin:130px 230px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    padding:100px 100px;
+    text-align:center;
+}
+.about_header{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.about_description{
+    font-size:18px;
+    margin-bottom: 30px;
+}
+
+.personal_info{
+    display:flex;
+    justify-content:space-evenly;
+}
+.address{
+    margin-left: 30px;
+    font-size:15px;
+    padding:10px;
+}
+.address_des{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* styles for what i do section */
+
+.what_i_do{
+    margin-top: 100px;
+    text-align:center;
+}
+.what_heading{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.what_des{
+    font-size: 20px;
+    padding:0 100px;
+    margin:auto;
+    justify-content: center;
+}
+
+/* skill section design */
+.skill_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.sub_skill{
+    width: 200px;
+    height: auto;
+    background-color:#FFF8F3;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding:50px 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+.skill_heading{
+    font-size:20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.sub_skill:hover{
+    border:1px solid blue;
+}
+/* resume summary styles */
+.resume_summary{
+    text-align: center;
+    margin-top: 100px;
+}
+.resume_section_heading{
+    font-size: 35px;
+    font-weight: bold;
+}
+.education{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;;
+}
+.my_education{
+    color:#474747;
+    text-align:left;
+    padding:0 60px 60px 60px;
+}
+.resume_heading{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.degree{
+    margin-bottom: 30px;
+}
+.education_heading{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.education_sub_header{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.education_des{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* footer styles */
+.footer_section{
+    display: flex;
+    justify-content: center;
+    background-color: #FFF8F3;
+    margin-top: 60px;
+    padding:80px;
+}
+.connect{
+    margin-left: 20px;
+}
+.connect_heading{
+    margin-bottom: 50px;
+    font-size: 35px;
+    color:#181818;
+}
+.connect_des{
+    color:#474747;
+    font-size: 28px;
+    margin:30px 0px;
+}
+.single_icon{
+    margin:30px 30px 0 0;
+    width: 24px;
+    height: 24px;
+}
+.message_me_heading{
+    color:#181818;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+.input{
+    width: 461px;
+    height: 64px;
+    color:#757575;
+    font-weight: bold;
+    font-size: 14px;
+    border:0px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+.textarea{
+    width: 461px;
+    height: 154px;
+    color:#757575;
+    font-weight: bold;
+    font-size: 14px;
+    border:0px;
+    padding-left: 20px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
